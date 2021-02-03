@@ -1,0 +1,2 @@
+# nanoMedin
+WordPress Custom Theme
