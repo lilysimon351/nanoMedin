@@ -63,7 +63,7 @@
 		        	<?php endif; ?>
 
 			</div>
-			<?php if($wp_query->max_num_pages > 1): ?>
+			<?php if($wp_query->max_num_pages >= 1): ?>
 				<!--noindex-->
 			<div class="bottom-nav clr ignore-select" id="bottom-nav">					
 				<div class="nav-load" id="nav-load"><a href="#" data-page-num="<?php echo  $wp_query->max_num_pages; ?>" data-offset="1" rel="nofollow">Загрузить еще</a></div>	
